@@ -1,0 +1,16 @@
+# Android/IntelliJ/Gradle ignores
+.gradle/
+.idea/
+.kotlinc/
+build/
+app/build/
+local.properties
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.log
+*.apk
+*.aab
+*.dex
+*.class
