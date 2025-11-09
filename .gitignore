@@ -1,16 +1,47 @@
-# Android/IntelliJ/Gradle ignores
-.gradle/
-.idea/
-.kotlinc/
-build/
-app/build/
-local.properties
-*.iml
-captures/
-.externalNativeBuild/
-.cxx/
-*.log
+@"
+# Built application files
 *.apk
 *.aab
+*.ap_
 *.dex
+
+# Java class files
 *.class
+
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder
+.externalNativeBuild
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# Archivos grandes de Gradle
+*.zip
+gradle-*.zip
+
+# OS
+.DS_Store
+"@ | Out-File -FilePath .gitignore -Encoding UTF8 -Force
